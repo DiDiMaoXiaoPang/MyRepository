@@ -2,9 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>盒子模型</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: red;
+            /*设置边框*/
+            border: 5px solid green;
+
+            /*设置内边距*/
+            padding: 10px 5px 8px 15px;
+
+            /*设置外边距*/
+            margin: 10px;
+        }
+        .test1{
+            background-color: rgba(255,0,0,1.0);
+        }
+        .test2{
+            background-color: rgba(255,0,0,0.8);
+        }
+        .test3{
+            background-color: rgba(255,0,0,0.6);
+        }
+        .test4{
+            background-color: rgba(255,0,0,0.4);
+        }
+        .test5{
+            background-color: rgba(255,0,0,0.2);
+        }
+        .test6{
+            background-color: rgba(255,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-
+    <div class="test1">我是一个盒子</div>
+    <div class="test2">我是一个盒子</div>
+    <div class="test3">我是一个盒子</div>
+    <div class="test4">我是一个盒子</div>
+    <div class="test5">我是一个盒子</div>
+    <div class="test6">我是一个盒子</div>
 </body>
 </html>
