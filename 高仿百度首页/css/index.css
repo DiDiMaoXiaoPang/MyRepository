@@ -1,0 +1,127 @@
+/*去掉网页的边边角角*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    /*设置背景*/
+    background: url("../images/bg.jpg");
+    background-size: cover;
+}
+/*头部*/
+#header {
+    background-color: rgba(0, 0, 0, 0.2);
+    /*height: 44px;*/
+    line-height: 44px;
+    /*右对齐*/
+    text-align: right;
+    /*设置上下间距*/
+    margin: 0 0 50px 0;
+
+}
+#header a{
+    /*加粗*/
+    font-weight: bolder;
+    color:white;
+    /*设置字体*/
+    font-family: 'Arial';
+    /*设置字体大小*/
+    font-size: 15px;
+    /*右外部边距*/
+    margin-right: 8px;
+}
+
+#header a.no-weight{
+    font-weight: normal;
+}
+
+#header a.more-product{
+    background-color: #3385ff;
+    /*去除下划线*/
+    text-decoration: none;
+    /*设置内边距*/
+    padding: 6px;
+}
+/*中间内容*/
+#content{
+
+}
+#content .top-content{
+    /*居中*/
+    text-align: center;
+}
+#content .top-content img
+{
+    width: 270px;
+    height: 129px;
+}
+
+#content .bottom-content{
+    background-color: greenyellow;
+    width: 600px;
+    height: 38px;
+    /*居中*/
+    margin: 0 auto 30px;
+}
+#content .bottom-content input{
+    width: 500px;
+    height: 100%;
+    box-sizing: border-box;
+    /*左内边距*/
+    padding-left: 10px;
+    font-size: 16px;
+
+    border: 1px solid #dddddd;
+
+}
+#content .bottom-content a{
+    background-color: #3385ff;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 38px;
+    /*改变标签类型*/
+    display: inline-block;
+
+    /*浮动*/
+    float: right;
+
+    /*水平居中和垂直居中*/
+    text-align: center;
+    line-height: 38px;
+}
+
+#content .bottom-content input:focus{
+    /*去除外边线*/
+    outline: none;
+    border: 1px solid #3385ff;
+}
+.quick-search{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.quick-search img{
+    width: 101;
+    height: 91px;
+    margin: 0 5px;
+}
+
+.quick-search img:hover{
+    /*设置不透明度*/
+    opacity: 0.5;
+}
+/*尾部*/
+#footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+#footer a{
+    font-weight: bolder;
+    color: darkgrey;
+}
